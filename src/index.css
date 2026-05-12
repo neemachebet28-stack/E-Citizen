@@ -1,4 +1,4 @@
-
+/*HEADER SECTION*/
 .body{
     margin: 0;
     padding: 0;
@@ -52,11 +52,34 @@ width:20vw;
     justify-content: space-between;
     gap: 25px;
     align-items: center;
-    width:25%;
+    width:25vw;
 
+}
+.search-box i{
+    color: rgb(253, 250, 250);
+    margin-left: 20px;
+    
+}
+
+
+.search-box input{
+    width: 100%;
+    height: 80%;
+    border-radius: 40px;
+    border: none;
+    padding-left: 20px;
+    font-size: 15px;
 }
 .div2{
     width: 100%;
+    background-color: rgb(250, 251, 250);
+    
+    border-radius: 25px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div2 a{
     text-decoration: none;
@@ -82,25 +105,160 @@ width:20vw;
     font-weight: 550;
 }
 
+
+/*HERO SECTION*/
+/*HOME IMAGE SECTION*/
 .home-image img{
 width: 100%;
 
 }
 
-.foat-section{
+.float-section{   
     display: flex;
     flex-direction: column;
+    background-color: rgb(65, 62, 62);
+    width: 90%;
+    height: 100%;
+    margin: auto;
 
+
+}
+.text-section{
+      
+
+}
+
+.text-section h1{
+  color: white;
+    font-size: 40px;
+    font-weight: 550;
+    
+    
 }
 
 .div-section {
 display: flex;
 flex-direction: column;
+background-color: rgb(69, 67, 77);
+width: 100%;
+margin: auto;
+
+border-radius: 40px;
 
 }
+ 
+.div-section .search-box{
+    background-color: rgb(245, 241, 241);
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+  
+    
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+
 
 .services-links{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
+
+.services-links h4{
+    color: white;
+
+}
+.services-links img{
+    width: 35px;
+    height: 40px;
+   
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.bottom-div{
+    display: flex;
+    justify-content: space-between;
+    
+    width:100%;
+    margin: auto;
+   
+   
+}
+.bottom-div h2{
+    padding-left: 40px;
+}
+
+
+.parent-section h2{
+    color: rgb(245, 240, 240);
+
+}
+
+
+.banner img{
+    width: 90%;
+    height: 100%;
+   
+  
+}
+
+
+
+.divS{
+    width: 100%;
+    background-color: rgb(118, 119, 118);
+    
+    border-radius: 25px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divS a{
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+    font-size: 15px;
+
+    
+}
+.divR {
+    background-color: green;
+    
+    border-radius: 25px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divR a{
+    text-decoration: none ;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+}
+.link-divs{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 20%;
+    padding-right: 40px;
+    margin-top:15px ;
+    
+}
+.paragraph h2{
+    width: 50%;
+}
+
+
